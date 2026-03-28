@@ -14,8 +14,6 @@ function Admin({ onNavigateToForm1, onLoginSuccess }) {
     setError('');
     setSuccess('');
     setLoading(true);
-
-    // Test credentials for development (remove when backend is ready)
     const TEST_CREDENTIALS = {
       email: 'admin@example.com',
       password: 'admin123'
